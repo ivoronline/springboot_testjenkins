@@ -10,7 +10,7 @@ public class MyController {
   @ResponseBody
   @RequestMapping("/Hello")
   public String hello() {
-    return "Hello from Application: springboot_testjenkins <br> Branch: Master v1";
+    return "Hello from Application: springboot_testjenkins <br> Branch: Master v2";
   }
 
 }
